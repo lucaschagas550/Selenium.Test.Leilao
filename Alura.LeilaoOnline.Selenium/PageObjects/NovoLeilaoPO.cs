@@ -36,6 +36,7 @@ namespace Alura.LeilaoOnline.Selenium.PageObjects
         {
             get
             {
+                //Instalar o Selenium.Support, para acessar um select de elementos da tag option
                 var elementoCategoria = new SelectElement(driver.FindElement(byInputCategoria));
                 //elementoCategoria.FindElements(By.TagName("option"));
                 return elementoCategoria.Options

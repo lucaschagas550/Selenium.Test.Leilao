@@ -20,6 +20,7 @@ namespace Alura.LeilaoOnline.Selenium.Testes
         [Fact]
         public void DadaLargura992DeveMostrarMenuMobile()
         {
+            //Alterar tamanho da tela para os testes
             //arange
             var deviceSettings = new ChromeMobileEmulationDeviceSettings();
             deviceSettings.Width = 992;
